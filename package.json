@@ -8,6 +8,7 @@
     "format": "prettier '{pages,components}/**/*.{css,js,mdx}' --write"
   },
   "dependencies": {
+    "@badrap/bar-of-progress": "^0.1.2",
     "@headlessui/react": "^1.1.1",
     "@heroicons/react": "^1.0.1",
     "@mdx-js/loader": "^1.6.22",
