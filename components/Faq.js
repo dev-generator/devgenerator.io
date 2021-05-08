@@ -23,7 +23,7 @@ const faqs = [
 
 export function Faq() {
   return (
-    <div className="bg-white">
+    <div className="bg-white" id="faq">
       <div className="max-w-7xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:px-8">
         <div className="max-w-2xl lg:mx-auto lg:text-center">
           <h2 className="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">

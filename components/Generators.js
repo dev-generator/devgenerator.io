@@ -2,6 +2,7 @@ import ReactHtmlParser from 'react-html-parser';
 
 const groups = [
   {
+    id: 'ruby-gems',
     name: 'Ruby Gems',
     description: 'All Ruby base gems that have a config file generator needed.',
     background: 'bg-white',
@@ -16,6 +17,7 @@ const groups = [
     ]
   },
   {
+    id: 'node-modules',
     name: 'Node Modules',
     description: 'All Node base modules that have a config file generator needed.',
     background: 'bg-gray-100',
@@ -35,7 +37,7 @@ export function Generators() {
   return (
     <div>
       {groups.map((group) => (
-        <div className={group.background} key={group.name}>
+        <div className={group.background} key={group.name} id={group.id}>
           <div className="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:py-24 lg:px-8 lg:grid lg:grid-cols-3">
             <div className={`${group.left ? "order-first lg:order-last" : "" }`}>
               <h2 className="text-base font-semibold text-purple-600 uppercase tracking-wide">Supported Generators</h2>
