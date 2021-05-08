@@ -17,6 +17,7 @@ module.exports = {
       purple: colors.purple,
       yellow: colors.yellow,
       pink: colors.pink,
+      'light-blue': colors.lightBlue,
     },
     extend: {
       fontFamily: {
@@ -33,5 +34,6 @@ module.exports = {
   plugins: [
     require('@tailwindcss/typography'),
     require('@tailwindcss/forms'),
+    require('@tailwindcss/aspect-ratio'),
   ],
 }
