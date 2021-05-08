@@ -53,7 +53,7 @@ export function Generators() {
                 <div key={generator.name}>
                   <dt>
                     <a
-                      className="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white"
+                      className={`flex items-center justify-center h-12 w-12 rounded-md shadow-lg ${group.left ? "bg-white" : "bg-gray-200"}`}
                       href={generator.link}
                     >
                       <img

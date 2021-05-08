@@ -4,6 +4,7 @@ import { Team } from '../components/Team'
 import { Features } from '../components/Features'
 import { Generators } from '../components/Generators'
 import { Faq } from '../components/Faq'
+import { Footer } from '../components/Footer'
 
 export default function Home() {
   return (
@@ -23,6 +24,7 @@ export default function Home() {
         <Features />
         <Generators />
         <Faq />
+        <Footer />
       </main>
     </div>
   )
