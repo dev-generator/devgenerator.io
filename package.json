@@ -5,7 +5,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "format": "prettier 'pages/**/*.{css,js,mdx}' --write"
+    "format": "prettier '{pages,components}/**/*.{css,js,mdx}' --write"
   },
   "dependencies": {
     "@headlessui/react": "^1.1.1",
