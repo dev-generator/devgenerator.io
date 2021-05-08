@@ -2,6 +2,7 @@ import Head from 'next/head'
 import { Hero } from '../components/Hero'
 import { Team } from '../components/Team'
 import { Features } from '../components/Features'
+import { Generators } from '../components/Generators'
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
         <Hero />
         <Team />
         <Features />
+        <Generators />
       </main>
     </div>
   )
