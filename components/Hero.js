@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { Switch } from '@headlessui/react'
 import { Navigation } from './Navigation'
+import { Sponsor } from './Sponsor'
 import { SunIcon, MoonIcon } from '@heroicons/react/solid'
 
 function DarkModeSwitch({ enabled, onChange }) {
@@ -66,8 +67,7 @@ export function Hero() {
         </div>
       </div>
       <div className="bg-gray-800">
-        <div className="max-w-7xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:px-8">
-        </div>
+        <Sponsor/>
       </div>
     </div>
   )
