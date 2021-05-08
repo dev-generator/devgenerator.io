@@ -12,8 +12,18 @@ const navigation = [
 ]
 
 const generators = [
-  { name: 'Ruby Gem', description: 'All Ruby base gems that have a config file generator needed.', href: '/#ruby-gems', icon: '/img/icons/rubygems.svg' },
-  { name: 'Node Modules', description: 'All Node base modules that have a config file generator needed.', href: '/#node-modules', icon: '/img/icons/nodejs.svg' }
+  {
+    name: 'Ruby Gem',
+    description: 'All Ruby base gems that have a config file generator needed.',
+    href: '/#ruby-gems',
+    icon: '/img/icons/rubygems.svg',
+  },
+  {
+    name: 'Node Modules',
+    description: 'All Node base modules that have a config file generator needed.',
+    href: '/#node-modules',
+    icon: '/img/icons/nodejs.svg',
+  },
 ]
 
 function classNames(...classes) {
@@ -106,19 +116,33 @@ export function Navigation() {
                                     className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50"
                                   >
                                     <div className="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md sm:h-12 sm:w-12">
-                                      <img src={item.icon} alt={item.name} className="h-10 w-10" aria-hidden="true" />
+                                      <img
+                                        src={item.icon}
+                                        alt={item.name}
+                                        className="h-10 w-10"
+                                        aria-hidden="true"
+                                      />
                                     </div>
                                     <div className="ml-4">
-                                      <p className="text-base font-medium text-gray-900">{item.name}</p>
-                                      <p className="mt-1 text-sm text-gray-500">{item.description}</p>
+                                      <p className="text-base font-medium text-gray-900">
+                                        {item.name}
+                                      </p>
+                                      <p className="mt-1 text-sm text-gray-500">
+                                        {item.description}
+                                      </p>
                                     </div>
                                   </a>
                                 ))}
                               </div>
                               <div className="p-5 bg-gray-50 sm:p-8">
-                                <a href="#" className="-m-3 p-3 flow-root rounded-md hover:bg-gray-100">
+                                <a
+                                  href="#"
+                                  className="-m-3 p-3 flow-root rounded-md hover:bg-gray-100"
+                                >
                                   <div className="flex items-center">
-                                    <div className="text-base font-medium text-gray-900">Generator Dashboard</div>
+                                    <div className="text-base font-medium text-gray-900">
+                                      Generator Dashboard
+                                    </div>
                                   </div>
                                   <p className="mt-1 text-sm text-gray-500">
                                     Generate a config file based on your needs.

@@ -1,24 +1,28 @@
 const faqs = [
   {
     id: 1,
-    question: "Is this secure?",
-    answer: "Yes, all code is reviewed by the lead developer and the code is public so you can review yourself. Checkout the documentation for structure of adding a new feature to see how to dig into the code.",
+    question: 'Is this secure?',
+    answer:
+      'Yes, all code is reviewed by the lead developer and the code is public so you can review yourself. Checkout the documentation for structure of adding a new feature to see how to dig into the code.',
   },
   {
     id: 2,
-    question: "Can I copy or Download the generated file?",
-    answer: "Yes and Yes, you will have the option to copy the generation or download the generated file based on your need."
+    question: 'Can I copy or Download the generated file?',
+    answer:
+      'Yes and Yes, you will have the option to copy the generation or download the generated file based on your need.',
   },
   {
     id: 3,
-    question: "Will I be able to upload my current version?",
-    answer: "Yes, we can take your existing file and convert to our tool to then allow you to download with the latest and greatest."
+    question: 'Will I be able to upload my current version?',
+    answer:
+      'Yes, we can take your existing file and convert to our tool to then allow you to download with the latest and greatest.',
   },
   {
     id: 4,
-    question: "Is my data saved on the server?",
-    answer: "No, everything is worked in current session so if you leave a page you need to start over."
-  }
+    question: 'Is my data saved on the server?',
+    answer:
+      'No, everything is worked in current session so if you leave a page you need to start over.',
+  },
 ]
 
 export function Faq() {
@@ -31,7 +35,12 @@ export function Faq() {
           </h2>
           <p className="mt-4 text-gray-500">
             Can’t find the answer you’re looking for? Reach out to us on{' '}
-            <a href="https://github.com/dev-generator/app.devgenerator.io/discussions/new" className="text-purple-600">github</a>{' '}
+            <a
+              href="https://github.com/dev-generator/app.devgenerator.io/discussions/new"
+              className="text-purple-600"
+            >
+              github
+            </a>{' '}
             and ask it to the community.
           </p>
         </div>
@@ -44,10 +53,10 @@ export function Faq() {
               </div>
             ))}
           </dl>
-          <div class="mt-12 text-center">
+          <div className="mt-12 text-center">
             <a
               href="https://github.com/dev-generator/app.devgenerator.io/discussions"
-              class="inline-flex items-center px-6 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-purple-700 hover:bg-purple-500 focus:outline-none focus:border-purple-700 focus:shadow-outline-purple active:bg-purple-700 transition ease-in-out duration-150"
+              className="inline-flex items-center px-6 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-purple-700 hover:bg-purple-500 focus:outline-none focus:border-purple-700 focus:shadow-outline-purple active:bg-purple-700 transition ease-in-out duration-150"
             >
               View more Questions...
             </a>
