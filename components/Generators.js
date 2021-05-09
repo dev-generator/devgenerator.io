@@ -35,7 +35,7 @@ const groups = [
   },
 ]
 
-export function Generators() {
+export default function Generators() {
   return (
     <div>
       {groups.map((group) => (

@@ -30,7 +30,7 @@ function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
 }
 
-export function Navigation() {
+export default function Navigation() {
   return (
     <Popover>
       {({ open }) => (

@@ -8,7 +8,7 @@ const people = [
   },
 ]
 
-export function Team() {
+export default function Team() {
   return (
     <div className="bg-white" id="the-team">
       <div className="max-w-7xl mx-auto py-12 px-4 text-center sm:px-6 lg:px-8 lg:py-24">

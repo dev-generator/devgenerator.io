@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { Switch } from '@headlessui/react'
-import { Navigation } from './Navigation'
-import { Sponsor } from './Sponsor'
+import Navigation from '@/components/Navigation'
+import Sponsor from '@/components/Sponsor'
 import { SunIcon, MoonIcon } from '@heroicons/react/solid'
 
 function DarkModeSwitch({ enabled, onChange }) {
@@ -35,7 +35,7 @@ function DarkModeSwitch({ enabled, onChange }) {
   )
 }
 
-export function Hero() {
+export default function Hero() {
   const [enabled, setEnabled] = useState(false)
 
   return (
