@@ -1,5 +1,5 @@
 import '../styles/globals.css'
-import ProgressBar from "@badrap/bar-of-progress";
+import ProgressBar from '@badrap/bar-of-progress'
 
 const progress = new ProgressBar({
   size: 2,

@@ -1,44 +1,10 @@
 import ReactHtmlParser from 'react-html-parser'
-
-const groups = [
-  {
-    id: 'ruby-gems',
-    name: 'Ruby Gems',
-    description: 'All Ruby base gems that have a config file generator needed.',
-    background: 'bg-white',
-    left: false,
-    modules: [
-      {
-        name: 'Rubocop',
-        description:
-          'Generate  <a class="text-purple-600" href="https://docs.rubocop.org/">.rubocop.yml</a> file usable in your repo.',
-        icon: '/img/icons/rubocop.svg',
-        link: 'https://app.devgenerator.io/generator/rubocop',
-      },
-    ],
-  },
-  {
-    id: 'node-modules',
-    name: 'Node Modules',
-    description: 'All Node base modules that have a config file generator needed.',
-    background: 'bg-gray-100',
-    left: true,
-    modules: [
-      {
-        name: 'package.json',
-        description:
-          'Generate  <a class="text-purple-600" href="https://docs.npmjs.com/files/package.json">package.json</a> file usable in your repo.',
-        icon: '/img/icons/npm.svg',
-        link: 'https://app.devgenerator.io/generator/packagejson',
-      },
-    ],
-  },
-]
+import generators from '@/data/generators'
 
 export default function Generators() {
   return (
     <div>
-      {groups.map((group) => (
+      {generators.map((group) => (
         <div className={group.background} key={group.name} id={group.id}>
           <div className="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:py-24 lg:px-8 lg:grid lg:grid-cols-3">
             <div className={`${group.left ? 'order-first lg:order-last' : ''}`}>
@@ -53,7 +19,9 @@ export default function Generators() {
                 <div key={generator.name}>
                   <dt>
                     <a
-                      className={`flex items-center justify-center h-12 w-12 rounded-md shadow-lg ${group.left ? "bg-white" : "bg-gray-200"}`}
+                      className={`flex items-center justify-center h-12 w-12 rounded-md shadow-lg ${
+                        group.left ? 'bg-white' : 'bg-gray-200'
+                      }`}
                       href={generator.link}
                     >
                       <img
