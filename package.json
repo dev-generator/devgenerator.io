@@ -5,7 +5,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "format": "prettier '{pages,components,data}/**/*.{css,js}' --write"
+    "format": "prettier '{pages,components,data,styles}/**/*.{css,js}' --write",
+    "eslint": "eslint components/**/*.js data/**/*js pages/**/*.js next.config.js tailwind.config.js postcss.config.js prettier.config.js"
   },
   "dependencies": {
     "@badrap/bar-of-progress": "^0.1.2",
