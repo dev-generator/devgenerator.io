@@ -23,6 +23,7 @@ export default function Generators() {
                         group.left ? 'bg-white' : 'bg-gray-200'
                       }`}
                       href={generator.link}
+                      title={generator.name}
                     >
                       <img
                         src={generator.icon}
