@@ -7,7 +7,6 @@ This tool enables a user to generate a file based on the usage like package.json
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
-
 [![Netlify Status](https://api.netlify.com/api/v1/badges/2ac12197-6557-4126-adef-4221bb467eb5/deploy-status)](https://app.netlify.com/sites/devgenerator/deploys)
 
 ## Usage
