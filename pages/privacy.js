@@ -1,3 +1,4 @@
+import Head from 'next/head'
 import Navigation from '@/components/Navigation'
 import Footer from '@/components/Footer'
 
@@ -5,6 +6,9 @@ export default function Privacy() {
   return (
     <div>
       <main>
+        <Head>
+          <title>DevGenerator: Privacy Policy</title>
+        </Head>
         <div className="bg-gray-50">
           <div className="relative overflow-hidden">
             <div className="relative pt-6 pb-16 sm:pb-24">
