@@ -1,12 +1,4 @@
-const people = [
-  {
-    name: 'Christopher Pezza',
-    role: 'Lead Developer',
-    imageUrl: '/img/team-members/chris-pezza.jpg',
-    twitterUrl: 'https://twitter.com/chiefpansancolt',
-    githubUrl: 'https://github.com/chiefpansancolt',
-  },
-]
+import people from '@/data/team-members'
 
 export default function Team() {
   return (

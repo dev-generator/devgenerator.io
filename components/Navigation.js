@@ -2,29 +2,8 @@ import { Fragment } from 'react'
 import { Popover, Transition } from '@headlessui/react'
 import { MenuIcon, XIcon } from '@heroicons/react/outline'
 import { ChevronDownIcon } from '@heroicons/react/solid'
-
-const navigation = [
-  { name: 'The Team', href: '/#the-team' },
-  { name: 'Features', href: '/#features' },
-  { name: 'Ruby Gems', href: '/#ruby-gems' },
-  { name: 'Node Modules', href: '/#node-modules' },
-  { name: 'FAQ', href: '/#faq' },
-]
-
-const generators = [
-  {
-    name: 'Ruby Gem',
-    description: 'All Ruby base gems that have a config file generator needed.',
-    href: '/#ruby-gems',
-    icon: '/img/icons/rubygems.svg',
-  },
-  {
-    name: 'Node Modules',
-    description: 'All Node base modules that have a config file generator needed.',
-    href: '/#node-modules',
-    icon: '/img/icons/nodejs.svg',
-  },
-]
+import navigation from '@/data/navigation'
+import generators from '@/data/generators'
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
