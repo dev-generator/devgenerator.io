@@ -5,7 +5,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "format": "prettier '{pages,components}/**/*.{css,js,mdx}' --write"
+    "format": "prettier '{pages,components,data}/**/*.{css,js}' --write"
   },
   "dependencies": {
     "@badrap/bar-of-progress": "^0.1.2",
