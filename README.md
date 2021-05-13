@@ -36,7 +36,7 @@ Everyone interacting in the Developer File Generator project’s codebases, issu
 
 Run the following commands before deploying changes to check coding standards are met.
 
-1. [Eslint](https://github.com/eslint/eslint) - run `yarn javascript` to check for lint errors.
+1. [Eslint](https://github.com/eslint/eslint) - run `yarn eslint` to check for lint errors.
 
 ### Documentation
 
