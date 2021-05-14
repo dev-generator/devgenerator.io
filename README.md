@@ -15,8 +15,8 @@ Check out [https://devgenerator.io](https://devgenerator.io) for usage and docum
 
 Generators Supported:
 
-- [Package.json](https://devgenerator.io/generators/node_modules/packagejson) - Config doc where generator are built off of [documentation](https://docs.npmjs.com/cli/v6/configuring-npm/package-json)
-- [Rubocop](https://devgenerator.io/generators/ruby_gems/rubocop) - Config doc where generator are built off of [documentation](https://docs.rubocop.org/rubocop/1.3/index.html)
+- [Package.json](https://app.devgenerator.io/generators/node_modules/packagejson) - Config doc where generator are built off of [documentation](https://docs.npmjs.com/cli/v6/configuring-npm/package-json)
+- [Rubocop](https://app.devgenerator.io/generators/ruby_gems/rubocop) - Config doc where generator are built off of [documentation](https://docs.rubocop.org/rubocop/1.3/index.html)
 
 ## Development
 
