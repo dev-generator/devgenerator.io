@@ -1,4 +1,4 @@
-export const navigation = {
+const navigation = {
   features: [
     { name: 'Features', href: '/#features' },
     { name: 'Ruby Gems', href: '/#ruby-gems' },

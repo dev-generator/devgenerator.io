@@ -1,4 +1,4 @@
-export const faqs = [
+const faqs = [
   {
     id: 1,
     question: 'Is this secure?',
