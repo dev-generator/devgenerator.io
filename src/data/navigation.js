@@ -1,4 +1,4 @@
-export const navigation = [
+const navigation = [
   { name: 'The Team', href: '/#the-team' },
   { name: 'Features', href: '/#features' },
   { name: 'Ruby Gems', href: '/#ruby-gems' },

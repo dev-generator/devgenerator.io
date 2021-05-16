@@ -6,7 +6,7 @@ import {
   ClipboardListIcon,
 } from '@heroicons/react/outline'
 
-export const features = [
+const features = [
   {
     name: 'Enter Details',
     description: 'Add your data when it is applicable for a specific file to generate.',

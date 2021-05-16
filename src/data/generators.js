@@ -1,4 +1,4 @@
-export const generators = [
+const generators = [
   {
     id: 'ruby-gems',
     name: 'Ruby Gems',
